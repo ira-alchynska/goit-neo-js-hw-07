@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .section {
+            padding: 80px 120px;
+        }
+
+        #categories {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            list-style-type: none;
+        }
+
+        .item {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: 0.04em;
+            text-align: left;
+            margin-bottom: 10px;
+
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .list-technologies-item {
+            background-color: rgba(246, 246, 254, 1);
+            ;
+            border: 1px solid rgba(128, 128, 128, 1);
+            border-radius: 4px;
+            padding: 8px 12px;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        .list-technologies-item:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="section">
+        <ul id="categories">
+            <li class="item">
+                <h2>Animals</h2>
+                <ul class="list-technologies">
+                    <li class="list-technologies-item">Cat</li>
+                    <li class="list-technologies-item">Hamster</li>
+                    <li class="list-technologies-item">Horse</li>
+                    <li class="list-technologies-item">Parrot</li>
+                </ul>
+            </li>
+            <li class="item">
+                <h2>Products</h2>
+                <ul class="list-technologies">
+                    <li class="list-technologies-item">Bread</li>
+                    <li class="list-technologies-item">Parsley</li>
+                    <li class="list-technologies-item">Cheese</li>
+                </ul>
+            </li>
+            <li class="item">
+                <h2>Technologies</h2>
+                <ul class="list-technologies">
+                    <li class="list-technologies-item">HTML</li>
+                    <li class="list-technologies-item">CSS</li>
+                    <li class="list-technologies-item">JavaScript</li>
+                    <li class="list-technologies-item">React</li>
+                    <li class="list-technologies-item">Node.js</li>
+                </ul>
+            </li>
+        </ul>
+
+    </section>
+    <script src="./js/task-1.js" type="module"></script>
+</body>
+
+</html>

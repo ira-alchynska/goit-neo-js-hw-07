@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 6</title>
+    <style>
+        .login-form {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+
+        .login-form label {
+            font-size: 16px;
+            color: #333;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .login-form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-form button:hover {
+            background-color: #0056b3;
+        }
+
+        .login-form button:active {
+            background-color: #004494;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="section">
+        <form class="login-form">
+            <label>
+                Email
+                <input type="email" name="email" />
+            </label>
+            <label>
+                Password
+                <input type="password" name="password" />
+            </label>
+            <button type="submit">Log in</button>
+        </form>
+
+    </section>
+    <script src="./js/task-4.js" type="module"></script>
+</body>
+
+</html>
