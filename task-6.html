@@ -6,75 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 6</title>
-    <style>
-        .section {
-            padding: 80px 120px;
-        }
-
-        #controls {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            margin-bottom: 20px;
-            padding: 20px;
-            border: 2px dashed #f4f4f9;
-            background-color: #f4f4f9;
-            border-radius: 10px;
-            max-width: 800px;
-        }
-
-        .controls-input {
-            width: 100px;
-            height: 40px;
-            text-align: center;
-            font-size: 18px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-
-        .button {
-            padding: 10px 20px;
-            border-radius: 5px;
-            border: none;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        button[data-create] {
-            background-color: #4A90E2;
-            color: white;
-        }
-
-        button[data-destroy] {
-            background-color: #E94A4A;
-            color: white;
-        }
-
-        #boxes {
-            max-width: 800px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-            padding: 20px;
-            border: 2px dashed #f4f4f9;
-            background-color: #f4f4f9;
-            border-radius: 10px;
-            min-height: 100px;
-        }
-
-        #boxes div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/general.css" />
 </head>
-
 <body>
-
     <section class="section">
         <div id="controls">
             <input class="controls-input" type="number" min="1" max="100" step="1" />
@@ -85,7 +19,7 @@
         <div id="boxes"></div>
 
     </section>
-    <script src="./src/js/task-6.js" type="module"></script>
+    <script src="./js/task-6.js" type="module"></script>
 </body>
 
 </html>
